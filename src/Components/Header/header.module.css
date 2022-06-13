@@ -1,0 +1,26 @@
+.cont {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    font-size: 24px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.cont hr{
+    border: 1px solid rgba(0, 0, 0, 0.05)
+}

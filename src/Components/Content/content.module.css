@@ -1,0 +1,37 @@
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content button {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 4px;
+    border: none;
+}
+
+#count {
+    color: #F27C0F;
+}
+
+#count h1 {
+    font-size: 250px;
+    margin: 0;
+}
+
+#increment {
+    background-color: #003399;
+    color: white;
+}
+
+#decrement {
+    background-color: #F27C0F;
+    color: white;
+}
